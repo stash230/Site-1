@@ -2,8 +2,7 @@ import React from 'react';
 function About() {
   return (
     <div className="md:flex items-center gap-10 py-10 px-6">
-      <img
-        src="/images/Image3.jpeg"
+      <img src={`${import.meta.env.BASE_URL}images/Image3.jpeg`} 
         alt="About"
         className="w-full md:w-1/2 rounded-lg shadow-md"
       />
