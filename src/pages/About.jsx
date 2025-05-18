@@ -2,8 +2,7 @@ import React from 'react';
 function About() {
   return (
     <div className="md:flex items-center gap-10 py-10 px-6">
-      <img src = 'images/Image3.jpeg' 
-        alt="About"
+      <img src="/images/Image1.jpeg" alt="Van Life"
         className="w-full md:w-1/2 rounded-lg shadow-md"
       />
       <div className="mt-6 md:mt-0">
