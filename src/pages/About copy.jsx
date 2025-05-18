@@ -2,17 +2,9 @@ import React from 'react';
 function About() {
   return (
     <div className="md:flex items-center gap-10 py-10 px-6">
-      <img
-  src={`${import.meta.env.BASE_URL}images/image1.jpeg`}
-  alt="Van Life"
-  className="w-full md:w-1/2 rounded-lg shadow-md"
-/>
-<img
-  src={`${import.meta.env.BASE_URL}images/image2.jpeg`}
-  alt="Van Life"
-  className="w-full md:w-1/2 rounded-lg shadow-md"
-/>
-
+      <img src="/images/Image1.jpeg" alt="Van Life"
+        className="w-full md:w-1/2 rounded-lg shadow-md"
+      />
       <div className="mt-6 md:mt-0">
         <h1 className="text-4xl font-bold text-green-600 mb-4">About Us</h1>
         <p className="text-lg text-gray-700 mb-4">
